@@ -19,6 +19,7 @@ public class GUIPanel extends JPanel
 		firstButton = new JButton("Wow a button!");
 		baseLayout = new SpringLayout();
 		
+		
 		setupPanel();
 	}
 	
@@ -38,7 +39,8 @@ public class GUIPanel extends JPanel
 	 */
 	private void setupLayout()
 	{
-		
+		baseLayout.putConstraint(SpringLayout.NORTH, firstButton, 125, SpringLayout.NORTH, this);
+		baseLayout.putConstraint(SpringLayout.WEST, firstButton, 125, SpringLayout.WEST, this);
 	}
 	
 	/**
