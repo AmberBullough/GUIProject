@@ -5,6 +5,8 @@ import javax.swing.JPanel;
 import javax.swing.JButton;
 import java.awt.Color;
 import javax.swing.SpringLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class GUIPanel extends JPanel
 {
@@ -19,8 +21,9 @@ public class GUIPanel extends JPanel
 		firstButton = new JButton("Wow a button!");
 		baseLayout = new SpringLayout();
 		
-		
 		setupPanel();
+		setupLayout();
+		setupListeners();
 	}
 	
 	/**
