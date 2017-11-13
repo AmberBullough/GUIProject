@@ -28,6 +28,7 @@ public class GUIPanel extends JPanel
 	 */
 	private void setupPanel()
 	{
+		this.setBackground(Color.GREEN);
 		this.setLayout(baseLayout);
 		this.add(firstButton);
 	}
