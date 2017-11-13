@@ -41,7 +41,7 @@ public class GUIPanel extends JPanel
 	}
 	
 	/**
-	 * This helper method is used to link any GUI Components to the associated listeners
+	 * This helper method is used to link any GUI Components to the associated listeners.
 	 */
 	private void setupListeners()
 	{
